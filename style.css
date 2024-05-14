@@ -147,11 +147,18 @@ button {
   border: 1px solid var(--blue);
 
   .live {
-    background-color: #4caf50;
+    background-color: #8bc34a;
   }
   .dead {
-    background-color: #bf360c;
+    background-color: #1a237e;
   }
+}
+
+#start {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #4caf50;
 }
 
 

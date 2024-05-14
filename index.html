@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Game of life</title>
 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <script src="main.js" defer></script>
 </head>
 <body>
   <main>
     <h1>Game of life</h1>
-    <div class="container">
+    <div class="container" draggable="false">
       <div style="grid-row-start: 5; grid-column-start: 5;" class="live"></div>
       <div style="grid-row-start: 8; grid-column-start: 8;" class="dead"></div>
     </div>
   </main>
+
+  <button id="start">start</button>
 </body>
 </html>
